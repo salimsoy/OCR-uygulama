@@ -2,7 +2,7 @@
 Bu proje, EasyOCR ve Tesseract kütüphanelerini kullanarak fatura veya belge görüntüleri üzerinden metin çıkarma işlemi gerçekleştiren bir Python sınıfı içerir. İki farklı OCR motorunun sonuçlarını karşılaştırmak ve verileri yapılandırılmış JSON formatında saklamak için tasarlanmıştır.
 
 # OCR 
-OCR (Optical Character Recognition), taranmış belgeler, fatura fotoğrafları veya yol tabelaları gibi görüntülerin içindeki metinleri makine tarafından okunabilir metin formatına dönüştüren teknolojidir.
+OCR (Optik Karakter Tanıma) taranmış kağıt belgeler PDF dosyaları veya görüntüler gibi farklı türdeki dokümanları makine tarafından okunabilir verilere dönüştürmeye yarayan araçlardır. Bu toollar ve APIlar veri çıkarma sürecini otomatikleştirerek hem zaman hem de emek tasarrufu sağlar. Web ve mobil uygulamalar dahil çeşitli platformlarla sorunsuz şekilde çalışır, böylece kurumlar sıfırdan bir çözüm geliştirmeden sistemlerine OCR yeteneklerini entegre edebilir.
 
 Bu projede iki farklı yaklaşım kullanılmaktadır:
 - Tesseract: Google tarafından desteklenen, geleneksel ve yaygın kullanılan bir OCR motorudur.
