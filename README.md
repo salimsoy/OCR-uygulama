@@ -14,9 +14,8 @@ Kod, belirtilen bir dizindeki tüm .jpg formatındaki görselleri tarar ve aşa�
 - Hazırlık: Görüntü klasörünü ve OCR motorlarını (EasyOCR için Türkçe/İngilizce dil desteği, Tesseract için .exe yolu) başlatır.
 - Tarama: Klasördeki her bir görsel sırayla işleme alınır.
 - Metin Çıkarma:
--     Görüntü önce EasyOCR ile işlenir ve metinler birleştirilir.
--     Aynı görüntü Tesseract ile işlenir ve metin dizgisi oluşturulur.
-
+     - Görüntü önce EasyOCR ile işlenir ve metinler birleştirilir.
+     - Aynı görüntü Tesseract ile işlenir ve metin dizgisi oluşturulur.
 - Veri Yapılandırma: Okunan metinler, dosya isimleriyle eşleştirilerek bellekte tutulur.
 - Kaydetme: İşlem bitiminde sonuçlar easy_ocr.json ve tesseract_ocr.json dosyalarına ayrı ayrı kaydedilir.
 
