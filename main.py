@@ -83,7 +83,6 @@ class OcrInvoice:
 if __name__ == "__main__":
     proses = OcrInvoice()
     proses.main()
-    islem = proses.tesseract_list
-    işlem1 = proses.easy_ocr_list
+
                 
     
